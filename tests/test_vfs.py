@@ -19,7 +19,7 @@ class VFSTests(unittest.TestCase):
                              "files": {"/a": {"text": "текст"},
                                        "/d/b": {"base64": "AAE="}}})
         self.assertEqual(vfs.files["/a"], "текст".encode())
-        self.assertEqual(vfs.files["/d/b"], b"\\x00\\x01")
+        self.assertEqual(vfs.files["/d/b"], b"\x00\x01")
 
     def test_paths_and_listing(self):
         vfs = self.make_vfs({"name": "x", "directories": ["/", "/d"],
