@@ -1,0 +1,8 @@
+{
+  "name": "deep-vfs",
+  "directories": ["/", "/a", "/a/b", "/a/b/c", "/logs"],
+  "files": {
+    "/a/b/c/note.txt": {"text": "deep file\\n"},
+    "/logs/.keep": {"text": ""}
+  }
+}
