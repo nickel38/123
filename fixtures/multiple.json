@@ -1,0 +1,12 @@
+{
+  "name": "study-vfs",
+  "directories": ["/", "/docs", "/my folder", "/empty"],
+  "files": {
+    "/motd": {"text": "Добро пожаловать в эмулятор варианта 22!\\n"},
+    "/readme.txt": {"text": "Учебная виртуальная файловая система.\\n"},
+    "/.hidden": {"text": "Скрытый файл.\\n"},
+    "/docs/note.txt": {"text": "Заметка в каталоге docs.\\n"},
+    "/my folder/file name.txt": {"text": "Путь с пробелами.\\n"},
+    "/binary.bin": {"base64": "AAEC/w=="}
+  }
+}
