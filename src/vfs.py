@@ -40,7 +40,7 @@ class VFS:
     def show_motd(self) -> None:
         if "/motd" in self.files:
             text = self.files["/motd"].decode("utf-8", errors="replace")
-            print(text, end="" if text.endswith("\\n") else "\\n")
+            print(text, end="" if text.endswith("\n") else "\n")
 
     def resolve(self, path: str, cwd: str) -> str:
         """Разрешить путь, не выходя за пределы виртуального корня."""
