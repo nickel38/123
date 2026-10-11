@@ -1,0 +1,15 @@
+# Демонстрация всех команд варианта 22
+conf-dump
+ls
+ls -a
+cd "my folder"
+pwd
+ls
+cd ..
+rm -f missing.txt
+cd /docs
+pwd
+cd /
+date
+uptime
+exit
